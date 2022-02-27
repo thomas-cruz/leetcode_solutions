@@ -11,7 +11,7 @@ Constraints:
     -104 <= nums[i] <= 104
 ****/
 /**** Solution
-    Create a variable to store global maximum. Initialise first element in nums.
+    Create a variable to store global maximum. Initialise to first element in nums.
     Create a variable to store current sum. Initialise with zero.
     Run a loop from left to right over the array. If current sum has become negative then update it with value 0.
     Add the current element to current sum and update the global maximum if current sum is greater than global maximum.
