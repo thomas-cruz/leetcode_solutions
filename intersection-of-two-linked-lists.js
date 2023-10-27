@@ -83,7 +83,7 @@ If the two linked lists have no intersection at all, then the meeting pointer in
  * @return {ListNode}
  */
 var getIntersectionNode = function(headA, headB) {
-    if(headA == null || headB == null) return null;
+    if(!headA || !headB) return null;
 
     let a = headA;
     let b = headB;
