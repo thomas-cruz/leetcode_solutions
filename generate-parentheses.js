@@ -27,13 +27,13 @@ Constraints:
  4.   If right < left then we can add ')' to the current string
 
                     (0, 0, '')
-								 	      |	
-									  (1, 0, '(')  
-								   /           \
+		      	|	
+		    (1, 0, '(')  
+		   /           \
             (2, 0, '((')      (1, 1, '()')
-							   /                 \
+	   	/                 \
           (2, 1, '(()')           (2, 1, '()(')
-						   /                       \
+	   	/                       \
         (2, 2, '(())')                (2, 2, '()()')
             |	                           |
       res.append('(())')            res.append('()()')
